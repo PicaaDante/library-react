@@ -53,7 +53,7 @@ function App() {
         <Route
           path="/books/:id"
           render={() => (
-            <BookInfo books={books} addtoCart={addtoCart} cart={cart} />
+            <BookInfo books={books} addToCart={addtoCart} cart={cart} />
           )}
         />
         <Route
